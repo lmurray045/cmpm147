@@ -106,10 +106,10 @@ function draw() {
 
   
   fill(sun)
-  ellipse(sunX, height/4, width * 0.075, width * 0.075)
+  ellipse(sunX, height/7, width * 0.075, width * 0.075)
   
   fill(moon)
-  ellipse(moonX, height/4, width * 0.075, width * 0.075)
+  ellipse(moonX, height/7, width * 0.075, width * 0.075)
   
   let scroll = mouseX/(width/2)
   if(scroll < 1) {
