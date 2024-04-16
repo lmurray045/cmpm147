@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Experiment X - Subject/Topic</title>
+	<title>Experiment 2 - Living Impressions</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
@@ -32,11 +32,24 @@
 	<main id="content">
 		<section>
 
-			<h1>Experiment X - Subject/Topic</h1>
+			<h1>Experiment 2 - Living Impressions</h1>
 
 			<div class="minor-section">
 				<div id="canvas-container">
 					<!-- canvas will be added here -->
+					<head>
+						<meta charset="utf-8">
+						<meta http-equiv="X-UA-Compatible" content="IE=edge">
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+					
+						<title>Living Impression</title>
+						
+						<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
+						<script src="/script.js" defer></script>
+					  </head>  
+					  <body>
+						<script src="https://button.glitch.me/button.js" defer></script>
+					  </body>
 				</div>
                 <div class="fullscreen-box">
                     <button id="fullscreen">Fullscreen</button>
@@ -45,17 +58,30 @@
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p>What are you trying to acomplish with this experiment?</p>
+				<p>This project offers a generative, living impression of this inspiring image:
+					<img src="https://cdn.glitch.global/fd36b71a-0f3d-4226-8604-dadaf49bb549/DenaliLandscape.jpeg?v=1713039331051" width="960" height="380"> [source](https://www.ayellowstonelife.com/denali/)
+				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>Describe in detail what you did technically and how it works?</p>
+				<p>- Color: the color was decided by the major fields and compositions of the original image. By squinting, one can see the
+					fingerprint that the generative scene is built on.<br>
+				  - Primitives: both the green trees and the white snowy peaks are made using the triangle primitive. Additionally, both
+					grassy fields and the sky are rectangle primitives.<br>
+				  - Polygons:The mountains with peaks are made using vertexes that are extended horizontally by a random width to create
+					the base on which the peaks sit. Additionally, the dark foothill is a randomly made vertex based polygon.<br>
+				  - Composition: The mountains, peaks, foothills, and trees all change based on a random number generated from the seed.<br>
+				  - Life: the image is meant to capture the feeling of leaving beauty behind. As such, the scene slowly pulls away from you,
+					farther and farther. The viewer can also pan left and right to cycle the days, to show how as time passes, everything ultimately fades.</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p>Each person that worked on the code should reflect on the process, the difficulties, and the successes of the experiment.</p>
+				<p>I am the only person who worked on this project. Generally, it was not particularly difficult. After reading the documentation
+					for p5.js, it was pretty straightfoward. For a while, I struggled with making it my own, and trying to create an original piece
+					of art that reflected my own personal values. In the end, however, I feel like I ultimately achieved that which I am proud of.
+				</p>
 			</div>
 
 		</section>
